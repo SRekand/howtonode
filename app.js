@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.appendFile('mynewfile1.txt', ' This is my text.', function (err) {
+fs.rename('mynewfile1.txt', 'myrenamedfile.txt', function (err) {
     if (err) throw err;
-    console.log('Updated!');
+    console.log('File Renamed!');
 });
