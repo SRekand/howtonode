@@ -2,5 +2,6 @@
   "name": "howtonode",
   "version": "1.0.0",
   "dependencies": {
+    "upper-case": "^2.0.2"
   }
 }
